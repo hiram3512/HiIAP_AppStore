@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82C8EFC41B465BA4002D923C /* HiIAP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82C8EFC31B465BA4002D923C /* HiIAP.h */; };
+		82C8EFC61B465BA4002D923C /* HiIAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8EFC51B465BA4002D923C /* HiIAP.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82C8EFBE1B465BA3002D923C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				82C8EFC41B465BA4002D923C /* HiIAP.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82C8EFC01B465BA4002D923C /* libHiIAP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHiIAP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C8EFC31B465BA4002D923C /* HiIAP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiIAP.h; sourceTree = "<group>"; };
+		82C8EFC51B465BA4002D923C /* HiIAP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiIAP.m; sourceTree = "<group>"; };
+		82C8EFCB1B465BA4002D923C /* HiIAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiIAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C8EFCE1B465BA4002D923C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82C8EFBD1B465BA3002D923C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C8EFC81B465BA4002D923C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82C8EFB71B465BA3002D923C = {
+			isa = PBXGroup;
+			children = (
+				82C8EFC21B465BA4002D923C /* HiIAP */,
+				82C8EFCC1B465BA4002D923C /* HiIAPTests */,
+				82C8EFC11B465BA4002D923C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82C8EFC11B465BA4002D923C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82C8EFC01B465BA4002D923C /* libHiIAP.a */,
+				82C8EFCB1B465BA4002D923C /* HiIAPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82C8EFC21B465BA4002D923C /* HiIAP */ = {
+			isa = PBXGroup;
+			children = (
+				82C8EFC31B465BA4002D923C /* HiIAP.h */,
+				82C8EFC51B465BA4002D923C /* HiIAP.m */,
+			);
+			path = HiIAP;
+			sourceTree = "<group>";
+		};
+		82C8EFCC1B465BA4002D923C /* HiIAPTests */ = {
+			isa = PBXGroup;
+			children = (
+				82C8EFCD1B465BA4002D923C /* Supporting Files */,
+			);
+			path = HiIAPTests;
+			sourceTree = "<group>";
+		};
+		82C8EFCD1B465BA4002D923C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82C8EFCE1B465BA4002D923C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82C8EFBF1B465BA3002D923C /* HiIAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C8EFD11B465BA4002D923C /* Build configuration list for PBXNativeTarget "HiIAP" */;
+			buildPhases = (
+				82C8EFBC1B465BA3002D923C /* Sources */,
+				82C8EFBD1B465BA3002D923C /* Frameworks */,
+				82C8EFBE1B465BA3002D923C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiIAP;
+			productName = HiIAP;
+			productReference = 82C8EFC01B465BA4002D923C /* libHiIAP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		82C8EFCA1B465BA4002D923C /* HiIAPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C8EFD41B465BA4002D923C /* Build configuration list for PBXNativeTarget "HiIAPTests" */;
+			buildPhases = (
+				82C8EFC71B465BA4002D923C /* Sources */,
+				82C8EFC81B465BA4002D923C /* Frameworks */,
+				82C8EFC91B465BA4002D923C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiIAPTests;
+			productName = HiIAPTests;
+			productReference = 82C8EFCB1B465BA4002D923C /* HiIAPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82C8EFB81B465BA3002D923C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = hiram;
+				TargetAttributes = {
+					82C8EFBF1B465BA3002D923C = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					82C8EFCA1B465BA4002D923C = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 82C8EFBB1B465BA3002D923C /* Build configuration list for PBXProject "HiIAP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82C8EFB71B465BA3002D923C;
+			productRefGroup = 82C8EFC11B465BA4002D923C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82C8EFBF1B465BA3002D923C /* HiIAP */,
+				82C8EFCA1B465BA4002D923C /* HiIAPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82C8EFC91B465BA4002D923C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82C8EFBC1B465BA3002D923C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C8EFC61B465BA4002D923C /* HiIAP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C8EFC71B465BA4002D923C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82C8EFCF1B465BA4002D923C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82C8EFD01B465BA4002D923C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82C8EFD21B465BA4002D923C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		82C8EFD31B465BA4002D923C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		82C8EFD51B465BA4002D923C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HiIAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82C8EFD61B465BA4002D923C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HiIAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82C8EFBB1B465BA3002D923C /* Build configuration list for PBXProject "HiIAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C8EFCF1B465BA4002D923C /* Debug */,
+				82C8EFD01B465BA4002D923C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C8EFD11B465BA4002D923C /* Build configuration list for PBXNativeTarget "HiIAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C8EFD21B465BA4002D923C /* Debug */,
+				82C8EFD31B465BA4002D923C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82C8EFD41B465BA4002D923C /* Build configuration list for PBXNativeTarget "HiIAPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C8EFD51B465BA4002D923C /* Debug */,
+				82C8EFD61B465BA4002D923C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82C8EFB81B465BA3002D923C /* Project object */;
+}
